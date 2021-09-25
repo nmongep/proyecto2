@@ -1,0 +1,63 @@
+/* Estilos propios del header */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  /* Cierre Estilos propios del header */
+  header {
+    background-color: rgb(243, 245, 250);
+}
+li a {
+    font-family: 'Urbanist', sans-serif !important;
+  }
+[type=search] {
+    float: left;
+  }
+  .form-control {
+    font-family: 'Urbanist', sans-serif !important;
+    width: 80% !important;
+    margin-right: 0 !important;
+    margin-left: 10% !important;
+  }
+  .comprar {
+    position: relative;
+    margin-top: -0.30em;
+    margin-left: .100em;
+    color:black;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.125rem;
+  }
+  .fa-search {
+    font-size: 1.125rem;
+    margin-left: .255em;
+    margin-top: .400em;
+  }  
+  .row {
+      margin: .400em 0em .100em;
+  }
+
+  /* Estilos propios del footer */
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  /* Cierre Estilos propios del footer */

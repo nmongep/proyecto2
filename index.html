@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CDN Para plantillas Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+     <!--Fuentes de Textos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Urbanist&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <!--Hojas de Estilo en el ordenador-->
+    <link href="css/headers.css" rel="stylesheet">
+    <link href="css/footers.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos_index.css">
+    <title>TiendArteCR-Inicio</title>
+</head>
+<body>
+  <!--Encabezado personalizado-->
+  <header class="p-3">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-2 link-dark">Inicio</a></li>
+          <li><a href="#" class="nav-link px-2 link-dark">Nosotros</a></li>
+          <li><a href="productos.html" class="nav-link px-2 link-secondary">Productos</a></li>
+          <li><a href="contacto.html" class="nav-link px-2 link-dark">Contacto</a></li>
+        </ul>
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-3">
+          <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">
+          <span class="icon search"><i class="fa fa-search"></i></span>
+        </form>
+        <div class="comprar"><i class="fas fa-shopping-cart"></i></div>
+      </div>
+    </div>
+  </header>
+      <!--Carrousel con imágenes de contenido de pagina-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/slider1.jpg" class="d-block w-100" alt="persona pintando con acuarelas">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Bienvenidos</h5>
+              <p>Todo lo que necesitas para ser un artista lo encuentras aquí</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a href="productos.html">
+            <img src="img/slider2.jpg" class="d-block w-100" alt="Muestras de pinturas de oleo">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Las mejores pinturas del mercado</h5>
+              <p>Te ofrecemos gama de pinturas de calidad e ideales para tus proyectos</p>
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <img src="img/slider3.jpg" class="d-block w-100" alt="Fondo Pinceles en envase sobre una mesa">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Siguenos</h5>
+              <p>Visita nuestras redes y sé el primero en conocer nuevos productos</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!---Cards con información de productos-->
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!---Card1 Principiante-->
+        <div class="col">
+          <div class="card"><a href="#">
+            <img src="img/Card1.jpg" class="card-img-top" alt="Persona tomando un pincel y pintando">
+            <div class="card-body">
+              <h5 class="card-title">¿Eres Principiante?</h5>
+              <p class="card-text">Te ofrecemos paquetes ideales de iniciación para el tipo de pintura que te gustaría aprender.</p>
+            </div>
+          </a>
+          </div>
+        </div>
+        <!---Card2 Vende Tus Obras-->
+        <div class="col">
+          <div class="card"><a href="#">
+            <img src="img/Card2.jpg" class="card-img-top" alt="Persona pintando una pájaro">
+            <div class="card-body">
+              <h5 class="card-title">Vende Tus Obras</h5>
+              <p class="card-text">Inicia tu pequeño negocio con nosotros. Sube tus artes e inicia la venta.</p>
+            </div>
+          </a>
+          </div>
+        </div>
+        <!---Card3 Clases de Pintura-->
+        <div class="col">
+          <div class="card"><a href="#">
+            <img src="img/Card3.jpg" class="card-img-top" alt="Persona mostrando una pintura">
+            <div class="card-body">
+              <h5 class="card-title">Clases de Pintura</h5>
+              <p class="card-text">Cursos virtuales para que puedas ser un gran artista en poco tiempo y con los mejores profesores del país.</p>
+            </div>
+          </a>
+          </div>
+        </div>
+        <!---Card4 Obras Famosas-->
+        <div class="col">
+          <div class="card"><a href="galeria.html">
+            <img src="img/Card4.jpg" class="card-img-top" alt="Pintura Famosa Roma">
+            <div class="card-body">
+              <h5 class="card-title">Obras Famosas</h5>
+              <p class="card-text">¿Necesitas inspiración? En esta sección puedes ver algunas de las obras más famosas del mundo.</p>
+            </div>
+          </a>
+          </div>
+        </div>
+      </div>
+        <!---Footer personalizado-->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2021 TiendArteCR, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+      
+          <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Inicio</a></li>
+            <li class="nav-item"><a href="productos.html" class="nav-link px-2 text-muted">Productos</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link px-2 text-muted">Redes Sociales</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Ayuda</a></li>
+          </ul>
+        </footer>
+      </div>
+      <script src="https://kit.fontawesome.com/d7838530b1.js" crossorigin="anonymous"></script>  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
